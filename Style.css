@@ -67,14 +67,20 @@ nav .header-list ul li:hover > .submenu1{
     position: absolute;
     opacity: 0.7;
     left: -30.7%;
+    justify-self: start;
 }
 nav .header-list ul li:hover > .submenu1 ul{
     display: flex;
 }
+.submenu1 ul{
+    display: flex;
+    margin-left: 3rem;
+    width: 100%;
+}
 .submenu1 ul li{
     padding-top: 4rem;
     padding-bottom: 1rem;
-    margin-left: 3rem;
+    margin-right: 2rem;
 }
 
 nav .right-logos{
@@ -161,9 +167,10 @@ nav .right-logos img{
     background-color: rgb(68, 113, 118);
 }
 .grid-container1 img{
-    width: 36.8rem;
+    width: 100%;
     padding-top: 4rem;
 }
+
 .grid-container1 .imgs h3,h4{
     text-align: center;
     margin-top: 1rem;
@@ -338,7 +345,6 @@ footer{
     top: 127%;
     justify-content: space-between;
 }
-
 .footer-logos i{
     color: aliceblue;
     margin-right: 18px;
