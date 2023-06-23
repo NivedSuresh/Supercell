@@ -1,0 +1,15 @@
+.topBar{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 2.5em;
+    gap: 34px;
+    height: 100%;
+    font-family: SupercellText-Medium,Helvetica,Arial,sans-serif;
+}
+.topBarParent{
+    color: white;
+    justify-content: space-between;
+}
