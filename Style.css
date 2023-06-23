@@ -22,7 +22,7 @@ header{
 
 nav{
     width: 84%;
-    height: 100%;
+    height: 5.5rem;
     background-color: black;
     display: flex;
     position: relative;
@@ -124,7 +124,6 @@ nav .right-logos img{
    top: 40%;
    bottom: 60%;
    right: 42%;
-   z-index: 3;
    font-size: 2.5rem;
 }
 .main_img_container p{
@@ -151,20 +150,23 @@ nav .right-logos img{
 .main_img_container button i{
     margin-right: 1rem;
 }
-.container1{
+
+.grid-container1{
     width: 84%;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    gap: 2rem;
     margin-left: 8%;
+    background-color: rgb(68, 113, 118);
 }
-.container1 img{
-    width: 38.75rem;
-    padding:1rem;
+.grid-container1 img{
+    width: 36.8rem;
     padding-top: 4rem;
 }
-.container1 .imgs h3, h4{
+.grid-container1 .imgs h3,h4{
     text-align: center;
-    padding-top: .9rem;
+    margin-top: 1rem;
 }
 
 .content .b2{
@@ -182,53 +184,46 @@ nav .right-logos img{
     width: 150px;
     height: 45px;
 }
-.nita .logos{
-    width: 550px;
-    margin: 0%;
-}
-.pekka .logos{
-   width: 550px;
-}
-.nita .bg{
-    height: 580px;
+
+.grid-nita-pekka{
+    display: grid;
     width: 100%;
 }
 .nita{
     position: relative;
-    margin-bottom: -3.9px;
+    width: 100%;
+    height: 580px;
+    background-image: url("Images and Logos/Supercell_files/bg_wmg_brawlstars.0fd2a716.webp");
+    position: relative;
 }
-
-.nita .bg{
-    margin-bottom: 0%;
-}
-
-.nita .logos{
-    top: 30px;
-    position: absolute;
-    left: 50%;
-    margin-bottom: 0%;
-}
-
 .pekka{
     height: 580px;
     width: 100%;
     background-color: #1f7aeb;
-    margin-top: 0%;
     position: relative;
+    text-align: start;
 }
-.nita .nita-text{
-    display: block;
-    position: absolute;
-    z-index: 1px;
-    top: 40%;
-    left: 10%;
+.grid-nita-pekka img{
+    width: 550px;
 }
-.nita-text p{
+.pekka .logos{
+    float: left;
+}
+
+.nita .logos{
+    float: right;
+}
+
+.pn-text{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+.pn-text p{
     margin-bottom: 40px;
     color: aliceblue;
     font-size: x-large;
 }
-.nita-text h1{
+.pn-text h1{
     margin-bottom: 40px;
     color: aliceblue;
     font-size: x-large;
@@ -245,15 +240,6 @@ nav .right-logos img{
     height: 50px;
 }
 
-.pekka .pekka-text{
-    display: block;
-    position: absolute;
-    z-index: 1px;
-    top: 30%;
-    right: 10%;
-
-}
-
 .pekka button{
     border-radius:9px ;
     font-family: Helvetica,Arial,sans-serif;
@@ -265,17 +251,6 @@ nav .right-logos img{
     color: black;
     width: 140px;
     height: 50px;
-}
-
-.pekka-text h1{
-    margin-bottom: 40px;
-    color: aliceblue;
-    font-size: 25px;
-}
-.pekka-text p{
-    margin-bottom: 40px;
-    color: aliceblue;
-    font-size: 25px
 }
 
 .container-2{
@@ -305,9 +280,6 @@ nav .right-logos img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 30px;
     margin-bottom: 70px;
-}
-.container-2 .container2-combo2 img{
-    
 }
 .container-2 .container2-combo1 h3{
     margin-left: 20%;
