@@ -21,8 +21,8 @@ header{
 }
 
 nav{
-    width: 84%;
-    height: 5.5rem;
+    width: 148vh;
+    height: 10vh;
     background-color: black;
     display: flex;
     position: relative;
@@ -104,7 +104,7 @@ nav .right-logos img{
 }
 .header-line{
     width: 1px;
-    height: 5.4rem;
+    height: 10vh;
     background-color: grey;
     margin-right: .9rem;
     position: relative;
@@ -120,16 +120,18 @@ nav .right-logos img{
 .main_img_container{
     width: 100%;
     height: 75vh;
+    object-fit: cover;
     background-image: url("Images and Logos/Supercell_files/frontpage_hero.246340a2.jpg");
     background-size: 100%;
     text-align: center;
     position: relative;
+    bottom: 3%;
 }
+
 .main_img_container h1{
    position: absolute;
    top: 40%;
-   bottom: 60%;
-   left: 43%;
+   left: 42%;
    font-size: 2.5rem;
 }
 .main_img_container p{
