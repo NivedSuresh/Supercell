@@ -131,13 +131,13 @@ nav .right-logos img{
    top: 40%;
    bottom: 60%;
    left: 44%;
-   font-size: 2.1rem;
+   font-size: 2.3rem;
 }
 .main_img_container p{
     position: relative;
     top: 49%;
     z-index: 3;
-    font-size: 1.08rem;
+    font-size: 1.1rem;
 }
 .main_img_container button{
     background: linear-gradient(90deg,#1f7aeb,#1f7aeb 44px,#2d85f3 0,#2d85f3);
