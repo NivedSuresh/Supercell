@@ -119,15 +119,11 @@ nav .right-logos img{
 }
 .main_img_container{
     width: 100%;
+    background-image: url("Images and Logos/Supercell_files/frontpage_hero.246340a2.jpg");
+    background-size: cover;
     height: 75vh;
-    top: 0;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     position: relative;
-}
-.main_img_container img{
-    width: 100%;
 }
 .main_img_container h1{
    position: absolute;
@@ -137,9 +133,8 @@ nav .right-logos img{
    font-size: 2.5rem;
 }
 .main_img_container p{
-    position: absolute;
+    position: relative;
     top: 49%;
-    right: 30.5rem;
     z-index: 3;
     font-size: 1.15rem;
 }
