@@ -124,6 +124,7 @@ nav .right-logos img{
     background-size: 100%;
     text-align: center;
     position: relative;
+    bottom: 2%;
 }
 .main_img_container h1{
    position: absolute;
