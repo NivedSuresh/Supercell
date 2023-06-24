@@ -118,6 +118,7 @@ nav .right-logos img{
 }
 .main_img_container{
     position: relative;
+    bottom: 4%;
     width: 100%;
     height: 83vh;
     background-image: url("Images and Logos/Supercell_files/frontpage_hero.246340a2.jpg");
@@ -126,7 +127,6 @@ nav .right-logos img{
     object-position: bottom;
     background-size: 100%;
     text-align: center;
-    
 }
 .main_img_container h1{
    position: relative;
