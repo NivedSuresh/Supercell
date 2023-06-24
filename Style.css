@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: whitesmoke;
+    background-color: white;
     width: 100%;
 }
 html{
@@ -60,6 +60,9 @@ nav .header-list a{
     font-size: smaller;
     font-family: Helvetica, Arial, sans-serif;
 }
+.header-list{
+    width: 100%;
+}
 
 nav .header-list ul li a:hover{
     color: aliceblue;
@@ -67,18 +70,15 @@ nav .header-list ul li a:hover{
 
 nav .header-list ul li:hover > .submenu1{
     display: grid;
-    grid-template-columns: 1fr;
     position: absolute;
-    padding-top: 10%;
+    width: 100%;
     opacity: 0.7;
-    width: 306.7%;
-    left: -30.7%;
-    justify-self: start;
+    right: 10%;
+    padding-top: 3%;
 }
 .submenu1 ul{
     display: flex;
     margin-left: 3rem;
-    width: 100%;
 }
 .submenu1 ul li{
     padding-top: 2.5%;
@@ -119,9 +119,9 @@ nav .right-logos img{
 }
 .main_img_container{
     width: 100%;
+    height: 39rem;
     background-image: url("Images and Logos/Supercell_files/frontpage_hero.246340a2.jpg");
-    background-size: cover;
-    height: 75vh;
+    background-size: 100%;
     text-align: center;
     position: relative;
 }
@@ -130,20 +130,20 @@ nav .right-logos img{
    top: 40%;
    bottom: 60%;
    right: 42%;
-   font-size: 2.5rem;
+   font-size: 2rem;
 }
 .main_img_container p{
     position: relative;
     top: 49%;
     z-index: 3;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 .main_img_container button{
     background: linear-gradient(90deg,#1f7aeb,#1f7aeb 44px,#2d85f3 0,#2d85f3);
     border-radius:50em ;
     font-family: Helvetica,Arial,sans-serif;
     border-style: none;
-    padding:1.2rem 1.9rem;
+    padding:1rem 1.5rem;
     color: aliceblue;
     justify-content: space-evenly;
     position: absolute;
