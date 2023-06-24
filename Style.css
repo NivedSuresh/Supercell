@@ -75,9 +75,6 @@ nav .header-list ul li:hover > .submenu1{
     left: -30.7%;
     justify-self: start;
 }
-nav .header-list ul li:hover > .submenu1 ul{
-    display: flex;
-}
 .submenu1 ul{
     display: flex;
     margin-left: 3rem;
