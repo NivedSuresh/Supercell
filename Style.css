@@ -54,8 +54,11 @@ nav .header-list a{
 
 .submenu1{
     display: none;
-    width: 306.7%;
     background-color: black;
+}
+.submenu1 ul li a{
+    font-size: smaller;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 nav .header-list ul li a:hover{
@@ -64,8 +67,11 @@ nav .header-list ul li a:hover{
 
 nav .header-list ul li:hover > .submenu1{
     display: grid;
+    grid-template-columns: 1fr;
     position: absolute;
+    padding-top: 10%;
     opacity: 0.7;
+    width: 306.7%;
     left: -30.7%;
     justify-self: start;
 }
@@ -78,9 +84,8 @@ nav .header-list ul li:hover > .submenu1 ul{
     width: 100%;
 }
 .submenu1 ul li{
-    padding-top: 4rem;
-    padding-bottom: 1rem;
-    margin-right: 2rem;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
 }
 
 nav .right-logos{
@@ -112,6 +117,8 @@ nav .right-logos img{
     width: 100%;
     position: absolute;
     top: 0%;
+    display: grid;
+    justify-content: center;
 }
 .main_img_container{
     width: 100%;
@@ -161,10 +168,9 @@ nav .right-logos img{
     width: 84%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2%;
     position: relative;
-    gap: 2rem;
-    margin-left: 8%;
-    background-color: rgb(68, 113, 118);
+    left: 8%;
 }
 .grid-container1 img{
     width: 100%;
@@ -190,6 +196,7 @@ nav .right-logos img{
     color: aliceblue;
     width: 150px;
     height: 45px;
+    margin-top: 5%;
 }
 
 .grid-nita-pekka{
@@ -262,10 +269,11 @@ nav .right-logos img{
 
 .container-2{
     width: 84%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
     margin-top: 120px;
     position: relative;
-    position: absolute;
     left: 8%;
 }
 
@@ -275,14 +283,12 @@ nav .right-logos img{
 }
 
 .container-2 .container2-combo1{
-    margin-right: 15px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 30px;
     margin-bottom: 70px;
 }
 .container-2 .container2-combo2{
-    margin-left: 15px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 30px;
@@ -326,14 +332,15 @@ nav .right-logos img{
 }
 
 .tap-buttons{
-    display: flex;
-    position: absolute;
-    bottom: -3%;
-    left: 44%;
+    /* display: flex; */
+    position: relative;
+    margin-bottom: 10%;
+    left: 92%;
+    z-index: 10;
 }
 
 .tap-buttons input{
-    margin: 10px;
+    margin: 1%;
     border-color: aliceblue;
 }
 
@@ -341,8 +348,7 @@ footer{
     width: 100%;
     height: 470px;
     background-color: black;
-    position:absolute;
-    top: 127%;
+    position:relative;
     justify-content: space-between;
 }
 .footer-logos i{
@@ -407,7 +413,6 @@ footer{
 }
 
 pre{
-    font-size: smaller;
     font-family: Helvetica, Arial, sans-serif;
 }
 .end-logo img{
