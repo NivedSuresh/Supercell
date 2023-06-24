@@ -13,7 +13,7 @@ html{
 
 header{
     width: 100%;
-    height:5.4rem ;
+    height:9.5vh;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -22,7 +22,6 @@ header{
 
 nav{
     width: 84%;
-    height: 5.5rem;
     background-color: black;
     display: flex;
     position: relative;
@@ -32,7 +31,7 @@ nav{
 nav .header-logo img{
     width: 4.6%;
     position: absolute;
-    top: 23%;
+    top: 21%;
     left: 1.35%;
     z-index: 10;
 }
@@ -45,6 +44,7 @@ nav .header-list ul {
     list-style: none;
     display: flex;
 }
+
 nav .header-list a{
     text-decoration: none;
     color: grey;
@@ -91,20 +91,20 @@ nav .right-logos{
     right: 1%;
 }
 nav .right-logos img{
-    width: 1.8rem;
-    margin-left: 1.5rem;
-    margin-right: 2rem;
+    width: 1.7rem;
+    margin-left: 2vh;
+    margin-right: 2vh;
     margin-top: 1.8rem;
 
 }
 
 .right-logos .l4 img{
-    margin-top: 2.3rem;
+    margin-top: 2.1rem;
     width: 1rem;
 }
 .header-line{
     width: 1px;
-    height: 5.4rem;
+    height: 9.5vh;
     background-color: grey;
     margin-right: .9rem;
     position: relative;
@@ -119,37 +119,36 @@ nav .right-logos img{
 }
 .main_img_container{
     width: 100%;
-    height: 79vh;
+    height: 73vh;
     background-image: url("Images and Logos/Supercell_files/frontpage_hero.246340a2.jpg");
     background-repeat: no-repeat;
+    object-fit: cover;
     background-size: 100%;
     text-align: center;
     position: relative;
-    bottom: 2%;
 }
 .main_img_container h1{
-   position: absolute;
+   position: relative;
    top: 40%;
-   bottom: 60%;
-   left: 44%;
-   font-size: 2.3rem;
+   font-size: 4vh;
 }
 .main_img_container p{
     position: relative;
-    top: 49%;
+    vertical-align: middle;
+    top: 43%;
     z-index: 3;
-    font-size: 1.1rem;
+    font-size: 2.3vh;
 }
 .main_img_container button{
     background: linear-gradient(90deg,#1f7aeb,#1f7aeb 44px,#2d85f3 0,#2d85f3);
     border-radius:50em ;
     font-family: Helvetica,Arial,sans-serif;
     border-style: none;
-    padding:1rem 1.5rem;
+    padding:1rem 1.1rem;
     color: aliceblue;
     justify-content: space-evenly;
     position: absolute;
-    top: 75%;
+    top: 79%;
     right: 45%;
     z-index: 3;
 }
@@ -168,7 +167,7 @@ nav .right-logos img{
 }
 .grid-container1 img{
     width: 100%;
-    padding-top: 4rem;
+    padding-top: 6vh;
 }
 
 .grid-container1 .imgs h3,h4{
@@ -202,7 +201,6 @@ nav .right-logos img{
     width: 100%;
     height: 580px;
     background-image: url("Images and Logos/Supercell_files/bg_wmg_brawlstars.0fd2a716.webp");
-    position: relative;
 }
 .pekka{
     height: 580px;
@@ -216,22 +214,42 @@ nav .right-logos img{
 }
 .pekka .logos{
     float: left;
+    position: relative;
+    left: 9%;
 }
 
 .nita .logos{
     float: right;
+    position: relative;
+    right: 10%;
 }
 
-.pn-text{
+.pn-text1{
     margin-top: 12%;
-    margin-left: 10%;
+    margin-left: 8%;
 }
-.pn-text p{
+.pn-text2{
+    margin-top: 12%;
+    margin-left: 50.32%;
+
+}
+
+.pn-text1 p{
     margin-bottom: 40px;
     color: aliceblue;
     font-size: x-large;
 }
-.pn-text h1{
+.pn-text1 h1{
+    margin-bottom: 40px;
+    color: aliceblue;
+    font-size: x-large;
+}
+.pn-text2 p{
+    margin-bottom: 40px;
+    color: aliceblue;
+    font-size: x-large;
+}
+.pn-text2 h1{
     margin-bottom: 40px;
     color: aliceblue;
     font-size: x-large;
