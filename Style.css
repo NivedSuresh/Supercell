@@ -46,14 +46,14 @@ nav .header-list ul {
 
 nav .header-list a{
     text-decoration: none;
-    color: grey;
+    color: rgb(128, 128, 128);
     margin-right: 3rem;
     font-size: 1.1rem;
 }
 
 .submenu1{
     display: none;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .submenu1 ul li a{
     font-size: smaller;
@@ -64,7 +64,7 @@ nav .header-list a{
 }
 
 nav .header-list ul li a:hover{
-    color: aliceblue;
+    color: rgb(249, 250, 252);
 }
 
 nav .header-list ul li:hover > .submenu1{
@@ -103,7 +103,7 @@ nav .right-logos img{
 .header-line{
     width: 1px;
     height: 9.5vh;
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
     margin-right: .9rem;
     position: relative;
 }
@@ -145,7 +145,7 @@ nav .right-logos img{
     font-family: Helvetica,Arial,sans-serif;
     border-style: none;
     padding:1rem 1.1rem;
-    color: aliceblue;
+    color: rgb(244, 249, 253);
     justify-content: space-evenly;
     position: absolute;
     top: 72%;
@@ -185,7 +185,7 @@ nav .right-logos img{
     font-family: Helvetica,Arial,sans-serif;
     border-style: none;;
     background-color: #1f7aeb;
-    color: aliceblue;
+    color: rgb(244, 250, 255);
     width: 150px;
     height: 45px;
     margin-top: 5%;
@@ -235,22 +235,22 @@ nav .right-logos img{
 
 .pn-text1 p{
     margin-bottom: 40px;
-    color: aliceblue;
+    color: rgb(240, 248, 255);
     font-size: x-large;
 }
 .pn-text1 h1{
     margin-bottom: 40px;
-    color: aliceblue;
+    color: rgb(240, 248, 255);
     font-size: x-large;
 }
 .pn-text2 p{
     margin-bottom: 40px;
-    color: aliceblue;
+    color: rgb(238, 245, 251);
     font-size: x-large;
 }
 .pn-text2 h1{
     margin-bottom: 40px;
-    color: aliceblue;
+    color: rgb(240, 248, 255);
     font-size: x-large;
 }
 
@@ -259,7 +259,7 @@ nav .right-logos img{
     font-family: Helvetica,Arial,sans-serif;
     border-style: none;
     padding:15px 20px;
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
     color: black;
     width: 120px;
     height: 50px;
@@ -271,8 +271,8 @@ nav .right-logos img{
     border-style: none;
     padding:15px 20px;
     background-color: #1f7aeb;
-    color: aliceblue;
-    background-color: aliceblue;
+    color: rgb(239, 247, 254);
+    background-color: rgb(240, 248, 255);
     color: black;
     width: 140px;
     height: 50px;
@@ -294,13 +294,13 @@ nav .right-logos img{
 }
 
 .container-2 .container2-combo1{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 30px;
     margin-bottom: 70px;
 }
 .container-2 .container2-combo2{
-    background-color: white;
+    background-color: rgb(254, 253, 253);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 30px;
     margin-bottom: 70px;
@@ -352,18 +352,18 @@ nav .right-logos img{
 
 .tap-buttons input{
     margin: 1%;
-    border-color: aliceblue;
+    border-color: rgb(243, 248, 253);
 }
 
 footer{
     width: 100%;
     height: 470px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position:relative;
     justify-content: space-between;
 }
 .footer-logos i{
-    color: aliceblue;
+    color: rgb(243, 247, 251);
     margin-right: 18px;
     width: 25px;
 }
@@ -397,7 +397,7 @@ footer{
     position: absolute;
     height: 1px;
     width: 70%;
-    background-color: grey;
+    background-color: rgb(128, 128, 128);
     top: 26%;
     left: 15%;
 }
@@ -410,7 +410,7 @@ footer{
 .f-text1 a{
     margin-right: 15px ;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .address{
     position: absolute;
@@ -418,7 +418,7 @@ footer{
     top: 42%;
 }
 .address p{
-    color: grey;
+    color: rgb(128, 128, 128);
     font-size: 14px;
     margin-bottom: 3px;
 }
